@@ -90,6 +90,9 @@ Make sure it contains all necessary dependencies:
   </dependency>
 
   <!-- Apache HttpClient -->
+
+
+  
   <dependency>
     <groupId>org.apache.httpcomponents.client5</groupId>
     <artifactId>httpclient5</artifactId>
