@@ -66,7 +66,7 @@ First, run ElPaisScraper.java to scrape articles and download images
 Then, run BrowserStackTest.java to perform parallel browser testing
 
 📂 Output
-Output
+
 ✅ Article titles and content printed to console
 
 ✅ Article images downloaded to the images/ folder
