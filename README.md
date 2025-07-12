@@ -45,34 +45,42 @@ ElPaisScraper/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/your-username/ElPaisScraper.git
 cd ElPaisScraper
 
-### 2. Import it into IntelliJ / Eclipse
+2. Import the project into IntelliJ IDEA or Eclipse
+Make sure to use a JDK version 17 or above and enable Maven support.
 
-### 3. Add your browserstack.username and browserstack.access_key in the code
+3. Add BrowserStack credentials
+Update the code with your actual browserstack.username and browserstack.access_key.
 
-### 4. Run ElPaisScraper.java and then BrowserStackTest.java
+Alternatively, you can use environment variables if preferred.
+
+4. Run the project
+First, run ElPaisScraper.java to scrape articles and download images
+
+Then, run BrowserStackTest.java to perform parallel browser testing
 
 📂 Output
-Prints article titles and content
+Output
+✅ Article titles and content printed to console
 
-Saves images
+✅ Article images downloaded to the images/ folder
 
-Displays repeated words
+✅ Repeated words from translated titles printed
 
-Logs test execution on BrowserStack
+✅ Parallel browser session logs viewable on BrowserStack Dashboard
 
 
 ---
 
 **3. `pom.xml` Verification**  
 Make sure it contains all necessary dependencies:
-```xml
+
 <dependencies>
   <!-- Selenium -->
   <dependency>
@@ -95,3 +103,9 @@ Make sure it contains all necessary dependencies:
     <version>2.10.1</version>
   </dependency>
 </dependencies>
+📌 Notes
+Ensure your internet connection is active when running the scraper and translation API
+
+For BrowserStack testing, free accounts are limited — plan usage accordingly
+
+This project demonstrates a mix of automation, web scraping, API integration, and testing — all in one place
