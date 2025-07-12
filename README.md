@@ -51,3 +51,47 @@ ElPaisScraper/
 ```bash
 git clone https://github.com/your-username/ElPaisScraper.git
 cd ElPaisScraper
+
+### 2. Import it into IntelliJ / Eclipse
+
+### 3. Add your browserstack.username and browserstack.access_key in the code
+
+### 4. Run ElPaisScraper.java and then BrowserStackTest.java
+
+📂 Output
+Prints article titles and content
+
+Saves images
+
+Displays repeated words
+
+Logs test execution on BrowserStack
+
+
+---
+
+**3. `pom.xml` Verification**  
+Make sure it contains all necessary dependencies:
+```xml
+<dependencies>
+  <!-- Selenium -->
+  <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.21.0</version>
+  </dependency>
+
+  <!-- Apache HttpClient -->
+  <dependency>
+    <groupId>org.apache.httpcomponents.client5</groupId>
+    <artifactId>httpclient5</artifactId>
+    <version>5.3.1</version>
+  </dependency>
+
+  <!-- Gson -->
+  <dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.10.1</version>
+  </dependency>
+</dependencies>
