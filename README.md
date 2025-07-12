@@ -103,6 +103,9 @@ Make sure it contains all necessary dependencies:
     <version>2.10.1</version>
   </dependency>
 </dependencies>
+
+
+
 📌 Notes
 Ensure your internet connection is active when running the scraper and translation API
 
