@@ -4,7 +4,7 @@ ElPaisScraper is a Java-based automation project that uses **Selenium WebDriver*
 
 ---
 
-## 📌 Features
+##  Features
 
 - ✅ Scrapes the first 5 articles from the **Opinion section** of [El País](https://elpais.com/)
 - ✅ Extracts **title, content**, and **downloads images**
@@ -15,7 +15,7 @@ ElPaisScraper is a Java-based automation project that uses **Selenium WebDriver*
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Java (JDK 20+)
 - Selenium WebDriver
@@ -26,7 +26,7 @@ ElPaisScraper is a Java-based automation project that uses **Selenium WebDriver*
 
 ---
 
-## 🔄 Project Structure
+##  Project Structure
 
 ElPaisScraper/
 ├── pom.xml
@@ -65,15 +65,15 @@ First, run ElPaisScraper.java to scrape articles and download images
 
 Then, run BrowserStackTest.java to perform parallel browser testing
 
-📂 Output
+ Output
 
-✅ Article titles and content printed to console
+ Article titles and content printed to console
 
-✅ Article images downloaded to the images/ folder
+ Article images downloaded to the images/ folder
 
-✅ Repeated words from translated titles printed
+ Repeated words from translated titles printed
 
-✅ Parallel browser session logs viewable on BrowserStack Dashboard
+ Parallel browser session logs viewable on BrowserStack Dashboard
 
 
 ---
@@ -109,7 +109,7 @@ Make sure it contains all necessary dependencies:
 
 
 
-📌 Notes
+ Notes
 Ensure your internet connection is active when running the scraper and translation API
 
 For BrowserStack testing, free accounts are limited — plan usage accordingly
